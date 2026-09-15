@@ -1,15 +1,40 @@
-# IP-SAKTI frontend
+# IP-SAKTI Frontend
 
-React + Vite chat interface for the SIH26045 IP assistant. It uses the exact v1 contract in `CONTRACT.md`.
+> **Evidence-first AI workspace for AYUSH Intellectual Property, Traditional Knowledge, Compliance & Market Readiness.**
 
-## Run
+IP-SAKTI is a modern decision-support interface designed for exploring intellectual property and regulatory questions related to AYUSH innovation, traditional knowledge, medicinal plants, and market readiness.
+
+This repository contains the **frontend implementation** of the IP-SAKTI platform, developed as part of the **Smart India Hackathon (SIH) 2026** project.
+
+## ✨ Features
+
+- 🏛️ India / Global Jurisdiction
+- 🌐 English / Hindi Interface
+- 💬 Interactive IP Question & Answer Workspace
+- 📚 Evidence Vault
+- 🔎 Source & Citation Panel
+- 📊 Confidence Visibility
+- 🧠 Evidence-first Decision Flow
+- 🌿 AYUSH / Ayurveda-inspired Visual Design
+- 🗂️ Product Category Selection
+- ⚡ Suggested Questions
+- 🔄 New Case / Reset Flow
+- 👨‍⚖️ Expert Review Request Interface
+- 📱 Responsive User Interface
+- 🔌 Backend API Integration
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- REST API
+
+## 🚀 Getting Started
+
+### Install dependencies
 
 ```bash
 npm install
-cp .env.example .env
-npm run dev
-```
-
-Set `VITE_API_URL` to the backend base URL. For the provided mock, use `http://localhost:8000` and start `python3 backend/mock_server.py` from the repository root.
-
-The UI sends `question`, `jurisdiction`, `product_type`, and `language` to `/api/ask`; it renders `answer`, `sources`, `confidence`, and the `declined` safety state.
