@@ -1,0 +1,1 @@
+export default function ConfidenceBadge({ value }) { const label = value === 'med' ? 'Medium' : value === 'low' ? 'Low' : 'High'; return <span className={`confidence ${value || 'low'}`}><i /> Confidence <strong>{label}</strong></span>; }
